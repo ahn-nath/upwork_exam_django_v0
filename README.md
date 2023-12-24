@@ -11,7 +11,7 @@ Working Django DRF API with a User and Profile models and schemas.
 
 ## Tasks
 - [x] Create a [User](###User) and [Profile](###Profile) models and schemas 
-- [ ] Develop a REST API via DRF exposing CRUD endpoints for both models
+- [X] Develop a REST API via DRF exposing CRUD endpoints for both models
 - [ ] Test at least 2 endpoints
 - [X] Point DRF docs to root path
 - [X] Create requirements file
