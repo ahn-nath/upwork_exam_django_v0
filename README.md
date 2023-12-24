@@ -13,7 +13,7 @@ Working Django DRF API with a User and Profile models and schemas.
 - [x] Create a [User](###User) and [Profile](###Profile) models and schemas 
 - [ ] Develop a REST API via DRF exposing CRUD endpoints for both models
 - [ ] Test at least 2 endpoints
-- [ ] Point DRF docs to root path
+- [X] Point DRF docs to root path
 - [X] Create requirements file
 - [ ] Add a section on `README.md` with setup (venv), install (pip), run and testing instructions
 
