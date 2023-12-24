@@ -12,10 +12,10 @@ Working Django DRF API with a User and Profile models and schemas.
 ## Tasks
 - [x] Create a [User](###User) and [Profile](###Profile) models and schemas 
 - [X] Develop a REST API via DRF exposing CRUD endpoints for both models
-- [ ] Test at least 2 endpoints
+- [X] Test at least 2 endpoints
 - [X] Point DRF docs to root path
 - [X] Create requirements file
-- [ ] Add a section on `README.md` with setup (venv), install (pip), run and testing instructions
+- [X] Add a section on `README.md` with setup (venv), install (pip), run and testing instructions
 
 ### User
 - Email as username
@@ -33,3 +33,20 @@ Working Django DRF API with a User and Profile models and schemas.
 - Implement proper folder structure
 - Validation must be done via serializers
 - Use multiple commits (when possible, use conventional commit messages)
+
+## Setup, Install, Run and Testing
+Create a virtual environment
+
+    `python3 -m venv venv`
+Install dependencies
+
+    `pip install -r requirements.txt`
+Run migrations
+
+    `python manage.py migrate`
+Run server
+
+    `python manage.py runserver`
+Run tests
+
+    `python manage.py test`
