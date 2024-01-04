@@ -10,12 +10,12 @@ Working Django DRF API with a User and Profile models and schemas.
 4. Deliver a GitHub repository with your solution (it can be private, just give access to @arielaco)
 
 ## Tasks
-- [x] Create a [User](###User) and [Profile](###Profile) models and schemas 
-- [ ] Develop a REST API via DRF exposing CRUD endpoints for both models
-- [ ] Test at least 2 endpoints
+- [X] Create a [User](###User) and [Profile](###Profile) models and schemas 
+- [X] Develop a REST API via DRF exposing CRUD endpoints for both models
+- [X] Test at least 2 endpoints
 - [X] Point DRF docs to root path
 - [X] Create requirements file
-- [ ] Add a section on `README.md` with setup (venv), install (pip), run and testing instructions
+- [X] Add a section on `README.md` with setup (venv), install (pip), run and testing instructions
 
 ### User
 - Email as username
