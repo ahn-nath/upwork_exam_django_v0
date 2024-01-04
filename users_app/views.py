@@ -10,7 +10,6 @@ class UserViewSet(viewsets.ModelViewSet):
     """
     queryset = Users.objects.all().order_by('email')
     serializer_class = UserSerializer
-    permission_classes = [permissions.IsAuthenticated]
 
 
 class ProfileViewSet(viewsets.ModelViewSet):
@@ -19,4 +18,3 @@ class ProfileViewSet(viewsets.ModelViewSet):
     """
     queryset = Profiles.objects.all()
     serializer_class = ProfileSerializer
-    permission_classes = [permissions.IsAuthenticated]

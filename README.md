@@ -33,3 +33,20 @@ Working Django DRF API with a User and Profile models and schemas.
 - Implement proper folder structure
 - Validation must be done via serializers
 - Use multiple commits (when possible, use conventional commit messages)
+
+## Setup, Install, Run and Testing
+Create a virtual environment
+
+    `python3 -m venv venv`
+Install dependencies
+
+    `pip install -r requirements.txt`
+Run migrations
+
+    `python manage.py migrate`
+Run server
+
+    `python manage.py runserver`
+Run tests
+
+    `python manage.py test`

@@ -3,3 +3,6 @@ djangorestframework
 
 # Docs
 drf-yasg
+
+# Tests
+pytest-django
